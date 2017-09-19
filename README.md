@@ -2,9 +2,6 @@
 
 <a href="https://zenodo.org/badge/latestdoi/94564684"><img src="https://zenodo.org/badge/94564684.svg" alt="DOI"></a>
 
-
-DOI version available here https://zenodo.org/record/894543#.Wb_kosiGM2x
-
  The script Example_QSM_to_AbaqusInput takes a QSM (Terrestial LiDAR to QSM process available here: https://doi.org/10.5281/zenodo.844626)
  and converts it into an ABAQUS input file using the function Convert_Q2A_full, which can be used to run a Finite Element analysis in ABAQUS. 
  The other files are subsections and sample data + sample QSM
