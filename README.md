@@ -1,5 +1,7 @@
 # WindAndTrees_FEM
 
+https://zenodo.org/badge/94564684.svg
+
 DOI version available here https://zenodo.org/record/894543#.Wb_kosiGM2x
 
  The script Example_QSM_to_AbaqusInput takes a QSM (Terrestial LiDAR to QSM process available here: https://doi.org/10.5281/zenodo.844626)
