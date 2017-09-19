@@ -1,6 +1,7 @@
 # WindAndTrees_FEM
 
-https://zenodo.org/badge/94564684.svg
+<a href="https://zenodo.org/badge/latestdoi/94564684"><img src="https://zenodo.org/badge/94564684.svg" alt="DOI"></a>
+
 
 DOI version available here https://zenodo.org/record/894543#.Wb_kosiGM2x
 
