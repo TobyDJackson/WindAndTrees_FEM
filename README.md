@@ -6,10 +6,8 @@
  and converts it into an ABAQUS input file using the function Convert_Q2A_full, which can be used to run a Finite Element analysis in ABAQUS. 
  The other files are subsections and sample data + sample QSM
  
- We encourage users to adapt and update this code + raise issues on GitHub (https://github.com/TobyDJackson/WindAndTrees_FEM)
- 
- ![alt text](https://github.com/TobyDJackson/WindAndTrees_FEM/blob/master/image/QSM%20Process.png)
-
+  ![alt text](https://github.com/TobyDJackson/WindAndTrees_FEM/blob/master/image/Graphical%20Abstract.png)
+  
  There are two options:
  A. Import just the tree geometry into ABAQUS and apply forcings
  manually in the CAE GUI. The output will be within the CAE.
@@ -23,10 +21,11 @@
  In a future release I will provide a script to read in these dat files - it is currently not robust. 
  There is also a .odb output that can be viewed in abaqus VIEWER.
  
+ ![alt text](https://github.com/TobyDJackson/WindAndTrees_FEM/blob/master/image/QSM%20Process.png)
 
  Output variable is by default strain, but can be changed.
  Users require lots of parameters and material properties data, so the
- code below may require changing if this is unavailable.
+ code  may require changing if this is unavailable.
     
  The free version of abaqus (student) supports both options A and B
  above but each tree is limited to 1000 nodes (999 beams) and does not
