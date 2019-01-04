@@ -7,6 +7,8 @@
  The other files are subsections and sample data + sample QSM
  
  We encourage users to adapt and update this code + raise issues on GitHub (https://github.com/TobyDJackson/WindAndTrees_FEM)
+ 
+ ![alt text](https://github.com/TobyDJackson/WindAndTrees_FEM/blob/master/image/QSM%20Process.png)
 
  There are two options:
  A. Import just the tree geometry into ABAQUS and apply forcings
