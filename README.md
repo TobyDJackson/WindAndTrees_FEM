@@ -23,6 +23,7 @@
  
  ![alt text](https://github.com/TobyDJackson/WindAndTrees_FEM/blob/master/image/QSM%20Process.png)
 
+ These packages only use columns 1-9 of the QSM (radius, length, xyz coordinates, xyz vectors, parent index). 
  Output variable is by default strain, but can be changed.
  Users require lots of parameters and material properties data, so the
  code  may require changing if this is unavailable.
@@ -30,9 +31,6 @@
  The free version of abaqus (student) supports both options A and B
  above but each tree is limited to 1000 nodes (999 beams) and does not
  include the AQUA module, through which wind forcing is currently defined.
-
-
-
 
  The input QSM should have long cylinders and no discontinuities - otherwise the analysis will crash. 
  I use simplify_model_by_branch_size (property of Pasi Raumonen and distributed under GNU license and copied here)
